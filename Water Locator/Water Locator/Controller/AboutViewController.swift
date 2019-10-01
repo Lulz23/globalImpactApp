@@ -10,6 +10,7 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
+    @IBOutlet weak var toMap: UIButton!
     @IBOutlet weak var aboutLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
